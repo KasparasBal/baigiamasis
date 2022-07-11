@@ -45,3 +45,8 @@
   background-color: #e66108;
   transition: 0.3s ease;
 }
+.create-form-title {
+  font-size: 3rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}

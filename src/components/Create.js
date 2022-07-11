@@ -4,6 +4,7 @@ const Create = () => {
   return (
     <div className="create_container">
       <form className="create_form">
+        <h1 className="create-form-title">Create New Post</h1>
         <label className="create_label">Title</label>
         <input className="create_input" type="text" id="title"></input>
         <label className="create_label">Body</label>
