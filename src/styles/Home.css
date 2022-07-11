@@ -12,3 +12,7 @@
   width: 5rem;
   height: 5rem;
 }
+.error {
+  text-align: center;
+  font-size: 3rem;
+}
