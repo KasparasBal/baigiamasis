@@ -1,6 +1,9 @@
 /* colors:
-1st: #f1f3f5
-2nd: #343a40
+Accent Gray: #f1f3f5
+Text Color: #343a40
+Button: Hover 1:rgb(229, 232, 235);
+Main Orange: #f96b09;
+Button Hover 2: #e66108;
  */
 
 .nav_container {
@@ -9,8 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  height: 2rem;
+  height: 6rem;
+  background-color: #fff;
 }
 .search_bar {
   width: 60rem;
@@ -39,11 +42,19 @@
 
   margin: 1rem;
   padding: 1rem;
+  transition: 0.3s ease;
+}
+.link:hover {
+  background-color: rgb(229, 232, 235);
+  transition: 0.3s ease;
 }
 .link_login {
   font-size: 2rem;
   background-color: #f96b09;
   color: #fff;
+}
+.link_login:hover {
+  background-color: #e66108;
 }
 .link_icon {
   width: 2rem;

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "what to do?",
+      "body": "i do not know what to do, can someone help me ?",
+      "author": "Algis",
+      "id": 1
+    },
+    {
+      "title": "what do i do #2?",
+      "body": "i still do not know what to do, can someone help me pleaaase ?",
+      "author": "Algis",
+      "id": 2
+    }
+  ]
+}

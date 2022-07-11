@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gif_container {
+  margin: 40rem 40rem;
+}
+.loading_gif {
+  width: 5rem;
+  height: 5rem;
+}
