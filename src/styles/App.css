@@ -14,4 +14,5 @@ html {
 body {
   margin: 0 auto;
   background-color: #f1f3f5;
+  display: grid;
 }

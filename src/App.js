@@ -7,6 +7,7 @@ import Create from "./components/Create";
 import Login from "./components/Login";
 
 import "./styles/App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

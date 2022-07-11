@@ -1,9 +1,11 @@
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 4rem;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  margin: 4rem;
+  position: relative;
 }
 .gif_container {
   margin: 40rem 40rem;
@@ -19,4 +21,8 @@
 .posts_title {
   font-size: 3rem;
   text-align: center;
+}
+.posts {
+  grid-column: 2/3;
+  grid-row: 1/5;
 }

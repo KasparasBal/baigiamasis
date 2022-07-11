@@ -9,7 +9,13 @@
     {
       "title": "Error: 404 while, loading page, what does it mean?",
       "body": "Hey everyone, i got this error saying Error 404, while trying to navigate to my newly created page what could be the cause of this?",
-      "author": "Jerald",
+      "author": "Herald",
+      "id": 2
+    },
+    {
+      "title": "Bugs in Witcher 3 Repository",
+      "body": "Hello, i have seen users complain about this problem in Witcher 3, when mounting a horse you can't unmount it. This is the code : ~some code~. Any ideas how to solve it ?",
+      "author": "Geralt of Rivia",
       "id": 2
     }
   ]

@@ -1,5 +1,8 @@
-import { useState, useEffect } from "react";
 import Posts from "./Posts";
+import RecentPosts from "./RecentPosts";
+import TopPosters from "./TopPosters";
+import Sidebar from "./Sidebar";
+
 import "../styles/Home.css";
 
 import loading_gif from "../img/Loading_Gif.gif";
@@ -9,7 +12,7 @@ const Home = (props) => {
   const { data, loading, error } = useFetch("http://localhost:8000/posts");
   return (
     <div className="home">
-      <div className="sidebar"></div>
+      <Sidebar />
 
       <div className="posts">
         {error && <div className="error"> {error} </div>}
@@ -22,8 +25,8 @@ const Home = (props) => {
         {data && <Posts posts={data} />}
       </div>
 
-      <div className="recent"></div>
-      <div className="top_posters"></div>
+      <RecentPosts />
+      <TopPosters />
     </div>
   );
 };
