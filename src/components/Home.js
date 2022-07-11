@@ -7,6 +7,7 @@ import loading_gif from "../img/Loading_Gif.gif";
 const Home = (props) => {
   const [posts, setPosts] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(true);
 
   //Fetch Data from JSON SRV
   useEffect(() => {
@@ -17,7 +18,8 @@ const Home = (props) => {
       .then((data) => {
         setPosts(data);
         setLoading(false);
-      });
+      })
+      .catch((err) => {});
   }, []);
 
   return (
@@ -27,6 +29,7 @@ const Home = (props) => {
           <img className="loading_gif" src={loading_gif} alt="loading..." />
         </div>
       )}
+
       {posts && <Posts posts={posts} />}
     </div>
   );

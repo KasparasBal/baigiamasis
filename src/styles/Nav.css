@@ -14,6 +14,8 @@ Button Hover 2: #e66108;
   align-items: center;
   height: 6rem;
   background-color: #fff;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.116);
 }
 .search_bar {
   width: 60rem;
@@ -46,6 +48,7 @@ Button Hover 2: #e66108;
 }
 .link:hover {
   background-color: rgb(229, 232, 235);
+  color: #0f7dde;
   transition: 0.3s ease;
 }
 .link_login {
@@ -55,6 +58,7 @@ Button Hover 2: #e66108;
 }
 .link_login:hover {
   background-color: #e66108;
+  color: #fff;
 }
 .link_icon {
   width: 2rem;

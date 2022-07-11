@@ -1,15 +1,15 @@
 {
   "posts": [
     {
-      "title": "what to do?",
+      "title": "Question: How to plant trees?",
       "body": "i do not know what to do, can someone help me ?",
       "author": "Algis",
       "id": 1
     },
     {
-      "title": "what do i do #2?",
+      "title": "Question: How to Start a Car?",
       "body": "i still do not know what to do, can someone help me pleaaase ?",
-      "author": "Algis",
+      "author": "Jerald",
       "id": 2
     }
   ]
