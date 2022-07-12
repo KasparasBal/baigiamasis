@@ -4,19 +4,48 @@
       "title": "How to write HTML?",
       "body": "Hey, i'm new to coding, can anyone help me get started with html?",
       "author": "Algis",
-      "id": 1
+      "id": 1,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": 0
     },
     {
       "title": "Error: 404 while, loading page, what does it mean?",
       "body": "Hey everyone, i got this error saying Error 404, while trying to navigate to my newly created page what could be the cause of this?",
       "author": "Herald",
-      "id": 2
+      "id": 2,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": 0
     },
     {
       "title": "Bugs in Witcher 3 Repository",
       "body": "Hello, i have seen users complain about this problem in Witcher 3, when mounting a horse you can't unmount it. This is the code : ~some code~. Any ideas how to solve it ?",
       "author": "Geralt of Rivia",
-      "id": 2
+      "id": 3,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": 0
+    },
+    {
+      "title": "How to write Css?",
+      "body": "Hey, i'm new to coding, can anyone help me get started with Css?",
+      "author": "Algis",
+      "id": 4,
+      "likes": 0,
+      "dislikes": 0,
+      "comments": 0
+    }
+  ],
+  "users": [
+    {
+      "username": "Algis"
+    },
+    {
+      "username": "Herald"
+    },
+    {
+      "username": "Geralt of Rivia"
     }
   ]
 }

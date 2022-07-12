@@ -4,9 +4,9 @@
   align-items: center;
   margin: 1rem;
   padding: 1rem;
-  position: absolute;
   width: 98%;
   bottom: 0;
+  position: absolute;
 }
 
 .social_media_icons {

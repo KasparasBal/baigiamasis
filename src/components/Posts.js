@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Posts.css";
 
 const like = (
@@ -56,18 +57,20 @@ const Posts = (props) => {
     <div className="posts">
       {props.posts.map((post) => (
         <div className="post_preview" key={post.id}>
-          <h2 className="post_title">
-            {post.title}
-            <hr></hr>
-          </h2>
+          <Link to={`/posts/${post.id}`}>
+            <h2 className="post_title">
+              {post.title}
+              <hr></hr>
+            </h2>
+          </Link>
           <p className="post_author"> Author: {post.author}</p>
           <div className="post_reactions">
             <button className="reaction_btn">{like}</button>
-            <span>0</span>
+            <span>{post.likes}</span>
             <button className="reaction_btn">{dislike}</button>
-            <span>0</span>
+            <span>{post.dislikes}</span>
             <button className="reaction_btn">{comment}</button>
-            <span>0</span>
+            <span>{post.comments}</span>
           </div>
         </div>
       ))}
